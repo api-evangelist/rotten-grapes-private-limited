@@ -1,0 +1,64 @@
+generated: '2026-10-23'
+method: probed
+source: https://rottengrapes.tech/privacy-policy/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Right to access your personal information"
+        note: Provides right of access to personal data.
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Right to rectify inaccurate personal information"
+        note: Allows correction of personal data.
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Right to request deletion of your personal information"
+        note: Enables data erasure requests.
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Right to restrict processing of your personal information"
+        note: Allows limitation of data processing.
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "Right to object to processing of your personal information"
+        note: Grants right to object to data processing.
+  incident_notification:
+    evidence:
+      - source: https://rottengrapes.tech/privacy-policy/
+        http_status: 200
+        fetched: "true"
+        quote: "We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process."
+        note: Describes security measures but does not specify breach notification.
+  data_retention:
+    evidence: []
+  subprocessors:
+    evidence: []
+  ai_transparency:
+    evidence: []
+  data_residency:
+    evidence: []
+  global_privacy_control:
+    evidence: []
+  exit_assistance:
+    evidence: []
+  notice_and_action:
+    evidence: []
+  accessibility_conformance:
+    evidence: []
+  support_lifetime:
+    evidence: []
+  age_assurance:
+    evidence: []
+  sbom:
+    evidence: []
+  training_data_summary:
+    evidence: []
+  transparency_report:
+    evidence: []

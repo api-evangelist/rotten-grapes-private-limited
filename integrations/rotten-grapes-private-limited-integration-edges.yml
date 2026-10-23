@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/rotten-grapes-private-limited/integrations
+- https://n8n.io/integrations/rotten-grapes-private-limited/
+- https://composio.dev/toolkits/rotten-grapes-private-limited
+- https://monid.ai/tools/rotten-grapes-private-limited
+checked:
+- https://composio.dev/toolkits/rotten-grapes-private-limited
+- https://monid.ai/tools/rotten-grapes-private-limited
+- https://n8n.io/integrations/rotten-grapes-private-limited/
+- https://zapier.com/apps/rotten-grapes-private-limited/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

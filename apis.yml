@@ -1,23 +1,70 @@
 aid: rotten-grapes-private-limited
+
 name: Rotten Grapes Private Limited
-description: 'Rotten Grapes Private Limited is a company surfaced via the API Evangelist harvest backlog
-  (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://rottengrapes.tech{% static 
+
+description: 'Rotten Grapes Private Limited provides geospatial consulting, GIS strategy, remote sensing, open-source GIS development, and AI-driven geospatial analytics. They empower businesses and governments with open-source GIS solutions, data-driven insights, and custom mapping applications, focusing on open-source tools and innovative geospatial technologies.'
+
 url: https://raw.githubusercontent.com/api-evangelist/rotten-grapes-private-limited/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Geospatial
+- Consulting
+- Open-Source
+- AI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/rotten-grapes-private-limited-hosts.yml
+- type: DomainSecurity
+  url: security/rotten-grapes-private-limited-domain-security.yml
 - type: Website
   url: https://rottengrapes.tech/
+- type: Documentation
+  url: https://rottengrapes.tech/docs/
+- type: DeveloperPortal
+  url: https://rottengrapes.tech/
+- type: Blog
+  url: https://medium.com/rotten-grapes/
+- type: PrivacyPolicy
+  url: https://rottengrapes.tech/privacy-policy/
+- type: TermsOfService
+  url: https://rottengrapes.tech/terms-of-use/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Documentation pages exist but no machine-readable API contract was found.
+  evidence:
+    - url: https://rottengrapes.tech/docs/
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
